@@ -2,7 +2,8 @@
     width: 75%;
     filter: grayscale();
     border-radius: 5%;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 19px 38px rgba(58, 23, 23, 0.3),
+        0 15px 12px rgba(0, 0, 0, 0.1);
     transition: 0.4s filter ease;
 }
 .Dog:hover img {
@@ -102,6 +103,7 @@ div.card-body {
     margin-bottom: 0;
     height: 10%;
     text-align: bottom;
+    margin-right: 2%;
 }
 
 div.card-body p {
@@ -120,7 +122,7 @@ a.more-info {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     div.card.col-lg-4 {
         padding-bottom: 5px;
         height: 23em;
@@ -154,5 +156,19 @@ a.more-info {
         height: 2em;
         padding: 0.4em;
         padding-bottom: 2%;
+    }
+
+    div.row {
+        margin-top: 10%;
+    }
+}
+
+.container {
+    margin-top: 2%;
+}
+
+@media only screen and (max-width: 450px) {
+    div.row {
+        margin-top: 20%;
     }
 }

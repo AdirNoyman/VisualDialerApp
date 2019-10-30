@@ -1,0 +1,13 @@
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index: 20;
+}
+
+@media only screen and (min-width: 995px) {
+    a.nav-link {
+        display: none;
+    }
+}
