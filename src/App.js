@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
-import Routes from './Routes';
+import DogList from './DogList';
 import './App.css';
 
 
@@ -11,9 +11,9 @@ class App extends Component {
 
     return (
       <div>
-        <NavBar className="nav" dogs={this.props.dogs} />
+        <NavBar className="nav" />
         <div className="container">
-          <Routes dogs={this.props.dogs} />
+          <DogList />
         </div>
       </div>
     );
