@@ -6,11 +6,12 @@ body {
     font-family: 'Source Sans Pro';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: linear-gradient(
+    /* background: linear-gradient(
         100deg,
         rgba(22, 10, 194, 0.8) 30%,
         #dde6e5 120%
-    );
+    ); */
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
     overscroll-behavior: none;
 }
 
